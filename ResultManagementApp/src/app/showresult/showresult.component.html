@@ -1,0 +1,47 @@
+<div class="container">
+    <a [routerLink]="['/searchResult']"><b>Back</b></a>
+    <form class="text-center" [formGroup] = "showResult">
+        <div class="title">
+            <h5><b>Result</b></h5>
+        </div>
+        <br>
+
+        <div class="form-body">
+            <div class="form-group">
+
+                <label for="rollno" class="col-sm-2 col-form-label"><b>Roll No. : &nbsp;</b></label>
+                <input type="text" class="col-sm-2 col-form-label" formControlName = "rollno" readonly/>
+
+
+            </div>
+
+            <br>
+
+            <div class="form-group ">
+                <label for="name" class="col-sm-2 col-form-label"><b>Name : &nbsp; </b></label>
+                <input type="text" class="col-sm-2 col-form-label" formControlName = "name" readonly/>
+
+            </div>
+
+            <br>
+
+            <div class="form-group ">
+                <label for="dob" class="col-sm-2 col-form-label"><b>Date of Birth :  &nbsp;</b></label>
+                <input type="text" class="col-sm-2 col-form-label"formControlName = "dob" readonly/>
+
+
+            </div>
+
+            <br>
+
+            <div class="form-group">
+                <label for="score" class="col-sm-2 col-form-label"><b>Score : &nbsp; </b></label>
+                <input type="text" class="col-sm-2 col-form-label"formControlName = "score" readonly/>
+
+            </div>
+        </div>
+    </form>
+    <div class="msg" >
+        <h3>Congratulations!!</h3>
+    </div>
+</div>

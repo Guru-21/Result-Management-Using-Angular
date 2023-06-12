@@ -1,0 +1,38 @@
+<a [routerLink]="['/']"><b>Back</b></a>
+<div class="container">
+    <form [formGroup]="searchResult" (ngSubmit)="FinalResult()">
+        <div class="title col-sm-4">
+            <h5><b>Find Result</b></h5>
+        </div>
+
+        <br>
+        <div class="form-body">
+            <div class="form-group row">
+                <label for="rollno" class="col-sm-2 col-form-label">Roll No.</label>
+                <div class="col-sm-6">
+                    <input #rollno name="rollno" pattern= "^\d{1,7}$" formControlName="rollno" type="text" class="form-control"
+                        placeholder="eg: 12345" required>
+                </div> 
+            </div>
+
+            <br>
+
+            <div class="form-group row">
+                <label for="name" class="col-sm-2 col-form-label">Name</label>
+                <div class="col-sm-6">
+                    <input #name name="name" pattern="^[A-Za-zÀ-ÿ ,.'-]+$" type="text" formControlName="name" class="form-control"
+                        placeholder="eg: Gurpreet Singh" required>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="col-auto">
+            <button id="buttonSe" class="btn btn-primary" id="btn-search" type="submit"><b>Search</b></button>
+            <button id="buttonSe" type="reset" class="btn btn-outline-dark" id="btn-clear"><b>Clear</b></button>
+        </div>
+
+    </form>
+
+</div>

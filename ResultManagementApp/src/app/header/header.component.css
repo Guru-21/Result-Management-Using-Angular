@@ -1,0 +1,11 @@
+div{
+    text-align: center;
+    padding: 10px;
+    background: #c6e4c1;
+    border: solid 2px #9fd497;
+}
+button{
+    float: right;
+    border: 1px solid;
+    border-radius: 15px;
+}

@@ -1,0 +1,19 @@
+.container{
+    text-align: center;
+    margin-top: 150px;
+}
+
+#btn-teacher{
+    margin-right: 120px;
+    width: 100px;
+    border: solid 1px black;
+}
+
+#btn-student{
+    width: 100px;
+    border: solid 1px black;
+}
+
+.login{
+    padding-bottom: 30px;
+}

@@ -1,0 +1,109 @@
+{
+  "addResult": [
+    {
+      "rollno": "1",
+      "name": "Gurpreet",
+      "dob": "21/10/1999",
+      "score": "700",
+      "id": 1
+    },
+    {
+      "rollno": "2",
+      "name": "Pawan",
+      "dob": "21/01/2000",
+      "score": "430",
+      "id": 2
+    },
+    {
+      "rollno": "3",
+      "name": "Aman",
+      "dob": "23/09/1999",
+      "score": "320",
+      "id": 3
+    },
+    {
+      "rollno": "4",
+      "name": "Zaheer",
+      "dob": "01/01/2000",
+      "score": "444",
+      "id": 4
+    },
+    {
+      "rollno": "7",
+      "name": "Gaurav",
+      "dob": "18/09/2000",
+      "score": "330",
+      "id": 5
+    },
+    {
+      "rollno": "5",
+      "name": "Kartik",
+      "dob": "12/02/2000",
+      "score": "444",
+      "id": 6
+    },
+    {
+      "rollno": "35",
+      "name": "Eren",
+      "dob": "09/09/2002",
+      "score": "450",
+      "id": 7
+    },
+    {
+      "rollno": "15",
+      "name": "Prem",
+      "dob": "28/04/2002",
+      "score": "540",
+      "id": 8
+    },
+    {
+      "rollno": "222",
+      "name": "Tanjiro",
+      "dob": "21/11/1999",
+      "score": "443",
+      "id": 9
+    },
+    {
+      "rollno": "94",
+      "name": "Hrittik",
+      "dob": "30/06/2000",
+      "score": "330",
+      "id": 10
+    },
+    {
+      "rollno": "84",
+      "name": "Manu",
+      "dob": "02/03/1996",
+      "score": "455",
+      "id": 11
+    },
+    {
+      "rollno": "123",
+      "name": "Ram",
+      "dob": "01/01/2000",
+      "score": "333",
+      "id": 12
+    },
+    {
+      "rollno": "11",
+      "name": "Asish",
+      "dob": "11/10/2000",
+      "score": "490",
+      "id": 13
+    },
+    {
+      "rollno": "12",
+      "name": "Armin",
+      "dob": "12/12/2000",
+      "score": "330",
+      "id": 14
+    },
+    {
+      "rollno": "44",
+      "name": "Radhe",
+      "dob": "12/11/1999",
+      "score": "440",
+      "id": 15
+    }
+  ]
+}

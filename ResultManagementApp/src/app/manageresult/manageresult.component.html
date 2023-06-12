@@ -1,0 +1,50 @@
+<div class="container">
+    <a [routerLink]="['/']"><b>Back</b></a>
+    <div class="title">
+        <button type="submit" class="btn btn-primary" (click)="onClickAddResult()"><b>Add Record</b></button>
+    </div>
+
+    <div class="sub-title col-sm-6">
+        <b>
+            <p>Total {{collection.length}} students</p>
+        </b>
+    </div>
+
+
+    <div class="container" style="overflow-y: scroll; height:65vh;">
+        <div class="row p-2">
+            <table class="table table-bordered border-dark border-2 table-responsive-sm table-hover ">
+                <thead class="thead-dark ">
+                    <tr class="text-center border-2 ">
+                        <th scope="col" class="border-2 headrow">Roll No.</th>
+                        <th scope="col" class="border-2  headrow">Name</th>
+                        <th scope="col" class="border-2 headrow">Date of Birth</th>
+                        <th scope="col" class="border-2 headrow">Score</th>
+                        <th scope="col" class="border-2 headrow">Actions</th>
+                    </tr>
+                </thead>
+
+
+                <tbody *ngIf="collection.length>0">
+
+                    <tr *ngFor="let item of collection" class="text-center border-2">
+                        <th scope="col" class="border-2 bodyrow">{{item.rollno}}</th>
+                        <th scope="col" class="border-2 bodyrow">{{item.name}}</th>
+                        <th scope="col" class="border-2 bodyrow">{{item.dob}}</th>
+                        <th scope="col" class="border-2 bodyrow">{{item.score}}</th>
+                        <th scope="col" class="border-2 bodyrow">
+                            <a routerLink="/updateResult/{{item.id}}"><i id="editicon" class="bi bi-pencil-fill"
+                                    style="color: rgb(40, 54, 92);"></i></a>
+                            <a (click)="deleteResult(item.id)" class="bi bi-trash" style="color: red;"></a>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="recordError" *ngIf="collection.length==0">
+                <h1 style="color: darkblue;">No Record Found!</h1>
+            </div>
+        </div>
+    </div>
+
+</div>

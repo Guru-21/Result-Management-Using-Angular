@@ -1,0 +1,29 @@
+#btn-clear{
+    margin-left: 100px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+#btn-search{
+    width: 100px;
+    margin-right: 50px;
+    border-radius: 15px;
+}
+
+input{
+    border: 1px solid;
+}
+
+input.ng-invalid{
+    border-left: 5px solid red;
+}
+input.ng-valid{
+    border-left: 5px solid green;
+}
+
+label{
+    padding-left: 8pc;
+}
+.title{
+    margin-left: -40px;
+}

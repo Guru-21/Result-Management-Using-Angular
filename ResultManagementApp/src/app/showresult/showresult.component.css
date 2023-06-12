@@ -1,0 +1,12 @@
+input{
+    border: 0px;
+}
+
+h5{
+    margin-right: 70px;
+}
+.msg{
+    text-align: center;
+    color: lawngreen;
+    padding: 40px;
+}
